@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+    <script>
+        /*
+        function functionName(param1, param2) {
+            block of statements
+        }
+
+        functionName(arg1, arg2);  //function callling
+        */
+/*
+        function welcome() {
+            console.log("Welcome!");
+        }
+
+        welcome();
+        welcome();
+        welcome();
+        welcome();
+        welcome();
+*/
+        function greet1(msg, name) {
+            return "Hi, " + name + "! " + msg + "!";
+        }
+
+        var grtmsg1 = greet1("Welcome", "RKarSiva");
+
+        // console.log(grtmsg1);
+/*
+        function greet2(msg, name) {
+            if (name) {
+                return "Hi, " + name + "! " + msg + "!";
+            }
+            else {
+                return "Hi, Anonymous! " + msg + "!";
+            }
+        }
+
+        var grtmsg2 = greet2("How are you?", "Ram");
+        console.log(grtmsg2);
+
+        function greet3(msg, name) {
+            if (name) {
+                return "Hi, " + name + "! " + msg + "!";
+            }
+            console.log("I won't be visible to you, if you give name.");
+            return "Hello, Anonymous! " + msg + "!";
+        }
+
+        var grtmsg3 = greet3("How are you?", "Sam");
+        console.log(grtmsg3);
+*/
+        function willBeDuplicated() {
+            console.log("I will be duplicated");
+        }
+
+        function willBeDuplicated() {
+            console.log("I am original");
+        }
+
+        function willBeDuplicated(msg) {
+            console.log(msg);
+            console.log("I am original with mesage");
+            return "Function ends.";
+        }
+
+        // willBeDuplicated();
+
+        var returnedDuplicate = willBeDuplicated("What wil you return?");
+        console.log("-------------------------");
+        console.log(returnedDuplicate);
+    </script>
+</head>
+<body>
+    <h1>Function</h1>
+</body>
+</html>

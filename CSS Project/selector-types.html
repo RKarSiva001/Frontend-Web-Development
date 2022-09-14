@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector Types</title>
+    <style>
+        /*Universal selector*/
+        /**{
+            margin: 0;
+            padding: 0;
+        }*/
+        /*Class selector*/
+        .content{
+            color: goldenrod;
+            padding: 20px;
+        }
+        /*Id selector*/
+        #page{
+            border: 3px solid crimson;
+            width: 960px;
+            padding: 10px;
+            margin: 0 auto;
+        }
+        #main{
+            margin: 10px 20px;
+        }
+        #sidebar{
+            padding: 20px;
+        }
+        /*Adjacent sibling selector*/
+        h1 + p{
+            font-size: 20px;
+        }
+        /*General sibling Selector*/
+        h1 ~ p{
+            font-style: italic;
+            background-color: blueviolet;
+        }
+        /*Descendant selector*/
+        li a{
+            text-decoration: none;
+        }
+
+        /*Child selector*/
+        #nav > li > a{
+            color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <div id="page">
+        <div id="main">
+            <h1>Selector Types</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur sequi accusamus minima ratione velit, omnis dolorem laudantium nisi! Libero illum quas facere harum, rem impedit molestias aliquam doloremque inventore laborum!</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores libero harum quia praesentium saepe soluta officia eius in incidunt error id eum sunt ratione dolorem nostrum voluptatibus nihil tempora dignissimos autem reprehenderit, optio consequatur? Fuga, aliquid velit libero, quos nostrum veritatis doloremque totam itaque ducimus tempore sapiente minus unde nihil. Exercitationem harum odit veritatis dolor vel sequi, labore eveniet odio quo ut, accusamus, porro quos dicta. Quae ab beatae voluptatum? Odit, placeat, hic adipisci odio, perspiciatis officiis porro itaque explicabo nostrum dolor quisquam. Iusto et suscipit in nobis consequatur recusandae tempore! Magni repudiandae cum enim suscipit debitis modi ut distinctio.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident expedita quasi voluptate molestiae ullam incidunt, impedit rem a! At itaque adipisci sint quis odit? Optio facere praesentium magnam sequi beatae blanditiis, ipsa animi itaque! Recusandae, molestias voluptatum architecto dolorum reiciendis nostrum earum delectus qui error possimus temporibus voluptatibus rerum dolores harum, optio facere corporis numquam? Obcaecati sequi eius, laboriosam in blanditiis libero quidem nemo ipsa suscipit natus cum voluptates exercitationem delectus quasi maxime mollitia doloremque velit ullam repellendus explicabo tenetur sunt. Quos, tempora ullam doloremque eveniet dignissimos asperiores sed, molestias illum quam reprehenderit nihil cum sunt rem? Deleniti, voluptas odit sit odio animi consequatur error impedit eligendi cum quibusdam in! Dolorem omnis officia animi nostrum labore quae esse iste illum tempore magnam vel possimus voluptas, sapiente ex! Error odit facilis magnam, perferendis omnis et reprehenderit a, repellat ipsam quam quia aut cum ex in iste excepturi eligendi. Dolore, provident et. Quos obcaecati recusandae a pariatur, eius, quae voluptates nobis eligendi dicta quaerat fuga architecto molestias quibusdam illo. Eveniet veritatis vel laborum iure debitis! Quia neque ab reiciendis dolore eaque vero modi assumenda, omnis, fuga, sit tempora dicta non voluptas optio dolores et libero? Quas repudiandae consectetur animi laboriosam dolor omnis consequuntur voluptatum aliquam nam repellat ut suscipit voluptatibus similique eaque, aspernatur, et numquam aliquid facere enim exercitationem dolorem eveniet libero dignissimos laborum. Inventore voluptatibus eum vero magni minima iusto, quod expedita. Saepe voluptas, voluptatum incidunt, doloremque expedita aut sint corrupti ut at soluta modi dicta cupiditate facilis minus quo assumenda mollitia vitae! Corporis nesciunt qui recusandae ea aliquam, sapiente tenetur vero aspernatur eligendi assumenda sint atque quos omnis voluptatem molestias ex iure harum, magnam culpa non voluptatibus aliquid repudiandae enim quasi! Laboriosam suscipit eos tenetur nesciunt culpa nulla temporibus repellendus, exercitationem sit sed reprehenderit dolore tempore voluptatibus illum harum voluptas dignissimos quisquam maiores odit id possimus numquam perferendis. Deleniti impedit optio nisi adipisci aut praesentium recusandae assumenda, omnis, incidunt, necessitatibus consectetur atque porro neque! Nihil aliquam saepe, inventore aliquid explicabo amet quibusdam odit repellendus tenetur voluptatum, sapiente blanditiis qui distinctio placeat minima laborum natus a voluptate nobis est similique eligendi quaerat voluptas modi. Cum voluptates distinctio incidunt excepturi inventore nihil sed eos culpa placeat eum nobis officia temporibus eius eligendi recusandae nostrum fugit unde vero iste, aperiam provident laudantium dolorem tenetur aut. Officiis, odit, quos, iste nobis fugiat earum accusamus doloribus possimus officia repellat recusandae incidunt nesciunt pariatur quibusdam error modi rem quam! Tenetur, deleniti expedita esse, beatae porro quasi velit, animi deserunt exercitationem possimus non. Qui, dolor! Sequi atque exercitationem odit magni inventore voluptas non tenetur nihil ipsam consequuntur! Voluptate quisquam non ipsam facilis, necessitatibus eveniet asperiores dolorem dolor hic nisi placeat explicabo possimus tenetur natus maiores ad neque, iusto quam! Animi repellat repellendus facilis perspiciatis eum nihil saepe esse, porro maxime dignissimos quasi maiores dolor error iusto enim? Maiores sint impedit dolores autem ratione iste et eligendi, tempora eaque a assumenda est consequuntur nulla possimus nesciunt alias incidunt ducimus animi rem fugiat ad. Doloremque a exercitationem quam quia!</p>
+        </div>
+        <div class="content">
+            <h2>Types of selector</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur <a href="#">Google</a> adipisicing elit. Ut ipsum unde aut quis cumque rerum explicabo assumenda est harum, qui nihil? Recusandae dignissimos fugiat tempora tempore quidem nesciunt cupiditate dolorum.</p>
+            <ul>
+                <li>Type or element selector</li>
+                <li>Id selector</li>
+                <li>Class selector</li>
+                <li>Universal selector</li>
+                <li>Adjacent sibling selector</li>
+                <li>General sibling selector</li>
+                <li>Descendant selector</li>
+                <li>Child selector</li>
+            </ul>
+        </div>
+        <div id="sidebar">
+            <h2>Sidebar</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <ul>
+                    <li>Web Design</li>
+                    <li>Website</li>
+                    <li>Web App</li>
+                </ul>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

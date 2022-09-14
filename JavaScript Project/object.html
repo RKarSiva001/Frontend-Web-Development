@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object</title>
+    <script>
+        
+        var person = new Object();
+        console.log(person instanceof Object);
+
+        person.name = "RKarSiva";
+        person.profession = "Python Developer";
+
+        console.log(person.name);
+        console.log(person.profession);
+
+        person.sayHi = function(mesage) {
+            console.log("Hi, " + person.name + "! " + mesage + "!");
+        }
+
+        person.sayHi("Welcome");
+        /*
+
+
+
+        var num1 = 10;
+        var num2 = num1;
+
+        var obj1 = new Object();
+        var obj2 = obj1;
+
+        num2 = 20;
+        console.log("num1 : ", num1);
+        console.log("num2 : ", num2);
+
+        obj2.name = "By Reference";
+        console.log("obj1 : ", obj1);
+        console.log("obj2 : ", obj2);
+        */
+
+
+
+
+/*
+        var student1 = new Object();    //Object constructor syntax
+        var student2 = {};  // Object literal syntax
+*/
+/*
+        var student1 = new Object();
+        student1.name = "Ram";
+        student1.dept = "CS";
+
+        student1.sayHi = function() {
+            console.log("Hi, " + this.name + " - " + this.dept);
+        }
+        
+        student1.sayHi();
+
+
+        var student2 = {
+            name: "Sam",
+            dept: "IT",
+            sayHi: function() {
+                console.log("Hi, " + this.name + " - " + this.dept)
+            }
+        }
+
+        student2.sayHi();
+
+        console.log("------------")
+
+
+
+        var student3 = student1;
+        var student4 = student2;
+        student3.sayHi();
+        console.log(student3);
+        student4.sayHi();
+        console.log(student4);
+        student1 = null;
+        student3.sayHi();
+        console.log(student3);
+        // student1.sayHi();
+        student2 = null;
+        student4.sayHi();
+        console.log(student4);
+        // student2.sayHi();
+*/
+/*
+        var SoftEngg = {
+            role: "Developing Software",
+            salary: "According to performance"
+        }
+
+        console.log(SoftEngg);
+
+        SoftEngg['job description'] = "Programming knowledge";
+        console.log(SoftEngg);
+
+        var jobDetail = "job description";
+        console.log(SoftEngg[jobDetail]);
+
+        for (prop in SoftEngg) {
+            console.log(SoftEngg[prop]);
+        }
+*/
+        console.log(person.hasOwnProperty('name'));
+        console.log(person.hasOwnProperty("profession"));
+        console.log(person.hasOwnProperty("sayHi"));
+        console.log(person.hasOwnProperty("dept"));
+        console.log(person.hasOwnProperty("toString"));
+        console.log(person.hasOwnProperty("valueOf"));
+
+        console.log(person.toString());
+        console.log(person.valueOf());
+
+    </script>
+</head>
+<body>
+    <h1>Object</h1>
+</body>
+</html>

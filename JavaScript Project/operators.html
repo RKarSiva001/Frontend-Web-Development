@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators</title>
+    <script>
+        //Arithmetic Operators
+        var add = 10 + 20;
+        console.log(add);
+
+        var sub = 20 - 5;
+        console.log(sub);
+
+        var mul = 3 * 6;
+        console.log(mul);
+
+        var div = 8 / 2;
+        console.log(div);
+
+        var mod = 50 % 3;
+        console.log(mod);
+
+        var res = add + 5;
+        console.log(res);
+
+        // Unary Operators
+        res = res + 10;
+        console.log(res);
+
+        // Post Increment
+        res++;
+        console.log(res);
+
+        // Post Decrement
+        res--;
+        console.log(res);
+
+        // Pre Increment
+        ++res;
+        console.log(res);
+        
+        //Pre Decrement
+        --res;
+        console.log(res);
+
+        var lang = "JavaScript";
+        console.log("Hello, " + lang + "!");
+
+        console.log(lang + 101);
+        persentAge = 2022 - "age";
+        console.log(persentAge , typeof persentAge );
+
+        // Relational Operators
+        console.log("10 > 5", 10 > 5);
+        console.log("15 < 8", 15 < 8);
+        console.log("16 >= 15", 16 >= 15);
+        console.log("21 <= 5", 21 <= 5);
+        console.log("5 == 5", 5 == 5);
+        console.log("5 != 5", 5 != 5);
+        console.log("5 == '5'", 5 == "5");
+        console.log("5 != '5'", 5 != "5");
+        console.log("5 === '5'", 5 === "5");
+        console.log("5 !== '5'", 5 !== "5");
+
+        // Logical Operators
+        console.log("!false", !false);
+        console.log("!10", !10);
+
+        console.log("10 || 'ok'", 10 || 'ok');
+        console.log("'yes' || null", 'yes' || null);
+        console.log("'' || 25", '' || 25);
+        console.log("false || undefined", false || undefined);
+
+        console.log("10 && 'ok'", 10 && 'ok');
+        console.log("'yes' && null", 'yes' && null);
+        console.log("'' && 25", '' && 25);
+        console.log("undefined && false", undefined && false);
+
+        // Conditional Operators
+        var age = 18, isMinor;
+        isMinor = age <= 18 ? "No" : "Yes";
+        console.log(isMinor);
+
+        // (Compound)Assigment Operators
+        var bal = 5000, cr = 2000;
+        bal += cr;
+        console.log(bal);
+        
+        var num = 5;
+        num -=2;
+        console.log(num);
+
+        num *= 10;
+        console.log(num);
+
+        num /=4;
+        console.log(num);
+
+        num %=2;
+        console.log(num);
+    </script>
+</head>
+<body>
+    <h1>Operators</h1>
+    <h2>Arithmentic Operators</h2>
+    <ol>
+        <li><h4>Add</h4></li>
+        <li><h4>Sub</h4></li>
+        <li><h4>Mul</h4></li>
+        <li><h4>Div</h4></li>
+        <li><h4>Mod</h4></li>
+    </ol>
+    <h2>Unary Operators</h2>
+    <ol>
+        <li><h4>Post Increment</h4></li>
+        <li><h4>Pre Increment</h4></li>
+        <li><h4>Post Decrement</h4></li>
+        <li><h4>Pre Decrement</h4></li>
+    </ol>
+    <h2>Relation Operators</h2>
+    <ol>
+       <li>Greater than</li>
+       <li>Lesser than</li>
+       <li>Greater than or Equal to</li>
+       <li>Lesser than or Equal to</li>
+       <li>Equal to </li>
+       <li>Not Equal to</li>
+       <li>Identical to</li>
+       <li>Not identical to</li> 
+    </ol>
+    <h2>Logical Operators</h2>
+    <ol>
+        <li>Not</li>
+        <li>Or</li>
+        <li>And</li>
+    </ol>
+    <h2>Conditional Operators</h2>
+    <h2>(Compound)Assigment Operators</h2>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Statments</title>
+    <script>
+        var day = 7; // = prompt("Enter a day in number:");
+        console.log(day);
+        // console.log(typeof(day));
+
+        switch (day) {
+            case 1:
+                console.log("Sunday");
+                break;
+            case 2:
+                console.log("Monday");
+                break;
+            case 3:
+                console.log("Tuesday");
+                break;
+            case 4:
+                console.log("Wednesday");
+                break;
+            case 5:
+                console.log("Thursday");
+                break;
+            case 6:
+            case 7:
+                console.log("Weekends");
+                break;
+            default:
+                console.log("No day");
+        }
+
+        day = 6;
+
+        switch (true) {
+            case day > 0 && day < 6:
+                console.log("Working Days?");
+                break;
+            case day === 6 || day === 7:
+                console.log("Holidays!");
+                break;
+            default:
+                console.log("Invalid???");
+        }
+
+        switch ("Hello Javascript") {
+            case "Hello" + " Javascript":
+                console.log("Hi, Hello!!!");
+                break;
+            default:
+                console.log("Not???");
+        }
+    </script>
+</head>
+<body>
+    <h1>Switch Statments</h1>
+</body>
+</html>
